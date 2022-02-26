@@ -1,0 +1,6 @@
+﻿2022-02-26 01:00:32.816 [INF] ===== Initialized Serilog Logger =====
+2022-02-26 01:00:32.912 [INF] Default logger
+2022-02-26 01:00:32.917 [INF] Processed {"Latitude":25,"Longitude":134} in 34 ms.
+2022-02-26 01:02:59.130 [INF] ===== Initialized Serilog Logger =====
+2022-02-26 01:02:59.248 [INF] Default logger
+2022-02-26 01:02:59.254 [INF] Processed {"Latitude":25,"Longitude":134} in 34 ms.
