@@ -20,9 +20,12 @@ public class Logger : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Default logger");
-        var position = new { Latitude = 25, Longitude = 134 };
-        var elapsedMs = 34;
-        Log.Logger.Information("Processed {@Position} in {Elapsed} ms.", position, elapsedMs);
+        // Default log
+        Debug.Log("Default logger test");
+        
+        // Structured log
+        var myObject = new { MyInt = 666, MyString = "number of the beast" };
+        var myFloat = 12.34;
+        Log.Logger.Information("Structured log with {@MyObject} object and {MyFloat} float.", myObject, myFloat);
     }
 }
